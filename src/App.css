@@ -1,0 +1,131 @@
+#root {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  background-image: url("../images/pattern-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  margin-bottom: -50px;
+}
+
+.Wrap {
+  height: 0px;
+}
+
+.Wrap h1 {
+  margin-top: 0px;
+  font-size: 3rem;
+}
+.Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.Form input {
+  height: 20px;
+  width: 250px;
+  max-height: 50px;
+  max-width: 300px;
+  padding: 10px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+  color: var(--Very-Dark-Gray);
+  font-size: 1.8rem;
+}
+
+.Form form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Form button {
+  height: 20px;
+  max-height: 70px;
+  padding: 20px;
+  padding-inline: 30px;
+  background-image: url(../images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: black;
+}
+
+.dummy {
+  height: 50px;
+}
+
+.Main_Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--Very-Dark-Gray);
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 20px;
+  width: 60vw;
+  height: 350px;
+  max-width: 70vw;
+  max-height: 450px;
+  top: -170px;
+  z-index: 50;
+  margin: 0px auto;
+  position: relative;
+}
+
+.Main_Card span {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: var(--Dark-Gray);
+  font-weight: bold;
+}
+
+.Main_Card h2 {
+  margin-block: 5px;
+  font-size: 2rem;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.leaflet-top .leaflet-control {
+  bottom: -645px;
+}
+
+.attribution {
+  background-color: rgb(86 109 211);
+}
+.attribution a {
+  color: white;
+}
+.attribution a:hover {
+  color: black;
+}
