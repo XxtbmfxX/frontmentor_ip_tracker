@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [owo](https://github.com/XxtbmfxX/frontmentor_ip_tracker)
+- Live Site URL: [uwu](https://xxtbmfxx.github.io/frontmentor_ip_tracker/)
 
 ## My process
 
