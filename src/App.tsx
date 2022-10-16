@@ -5,6 +5,8 @@ import Header from "./components/Header";
 import Map from "./components/Map";
 import ShowData from "./components/ShowData";
 
+// import * as dotenv from "dotenv";
+// dotenv.config();
 // 18.129.103.168
 //To test
 
@@ -12,7 +14,7 @@ function App() {
   const [data, setData] = useState(undefined);
   const [input, setInput] = useState("18.129.103.168");
 
-  const apiKey = process.env.APY_KEY;
+  const apiKey = import.meta.env.VITE_API_KEY;
   const URL = `https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}&ipAddress=${input}`;
 
   const doxear = (ip: String) => {

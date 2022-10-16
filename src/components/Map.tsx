@@ -23,7 +23,7 @@ function Map({ data }: any) {
         id="map"
         center={[data.location.lat, data.location.lng]}
         zoom={13}
-        scrollWheelZoom={false}
+        scrollWheelZoom={true}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
